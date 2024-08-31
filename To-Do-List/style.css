@@ -1,0 +1,72 @@
+/* Basic reset for consistent styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #19db22;
+    padding: 20px;
+}
+
+/* Style the main heading */
+#main-heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grid container setup */
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 14px;
+    row-gap: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+   }
+
+/* Style for input fields */
+#todo-input, #todo-date {
+    font-size: 15px;
+    padding: 10px 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+   }
+
+/* Focus effect for input fields */
+#todo-input:focus, #todo-date:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+/* Style the add button */
+button {
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect for button */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Hover effect for delete button */
+.todo-container button:hover {
+    background-color: #c82333;
+}
+
+.grid-container button:hover {
+    background-color: #c82333;
+}
